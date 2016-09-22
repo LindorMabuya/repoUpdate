@@ -2,7 +2,7 @@
 
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>PET Management App</title>
+    <title>Mobile health</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
@@ -13,7 +13,7 @@
 <body>
  <div style="color:white;background-color:blue;width:100%; height:auto; margin-bottom:15px;">
     <div style="color:white;width:100%; heigh:160px;text-align:center;" >
-        <span  style="font-size:17pt">Pet Management App</span>
+        <span  style="font-size:17pt">Mobile health</span>
     </div>
 </div>
 <div class="container">
@@ -23,11 +23,11 @@
         <div class="col-md-12 col-lg-6">
             <form th:object="${insertRecord}" method="POST">
                 <div class="form-group">
-                   <label for="data">Animal Name</label>
+                   <label for="data">Health Name</label>
                     <input id="data" type="text" class="form-control" placeholder="Animal name" th:field="*{name}" />
-                    <label for="data">Adopter Name</label>
+                    <label for="data">Insurance Name</label>
                     <input id="data" type="text" class="form-control" placeholder="Name" th:field="*{insurance}" />
-                    <label for="data">Adopter Surname</label>
+                    <label for="data">Health Surname</label>
                     <input id="data" type="text" class="form-control" placeholder="Surname" th:field="*{surname}" />
                     <label for="data">Phone Number</label>
                   <input id="data" type="text" class="form-control" placeholder="phonenumber" th:field="*{phonenumber}" />
