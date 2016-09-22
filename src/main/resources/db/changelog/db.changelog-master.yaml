@@ -18,18 +18,4 @@ databaseChangeLog:
                   type: varchar(255)
                   constraints:
                     nullable: true
-              - column:
-                  name: insurance
-                  type: varchar(255)
-                  constraints:
-                    nullable: true
-              - column:
-                  name: surname
-                  type: varchar(255)
-                  constraints:
-                    nullable: true
-              - column:
-                  name: phonenumber
-                  type: varchar(255)
-                  constraints:
-                    nullable: true
+             
