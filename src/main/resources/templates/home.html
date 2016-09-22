@@ -25,12 +25,6 @@
                 <div class="form-group">
                    <label for="data">Health Name</label>
                     <input id="data" type="text" class="form-control" placeholder="Animal name" th:field="*{name}" />
-                    <label for="data">Insurance Name</label>
-                    <input id="data" type="text" class="form-control" placeholder="Name" th:field="*{insurance}" />
-                    <label for="data">Health Surname</label>
-                    <input id="data" type="text" class="form-control" placeholder="Surname" th:field="*{surname}" />
-                    <label for="data">Phone Number</label>
-                  <input id="data" type="text" class="form-control" placeholder="phonenumber" th:field="*{phonenumber}" />
                   </div>
                 <button type="submit" class="btn btn-default">Add</button>
             </form>
@@ -50,9 +44,6 @@
                     <tr th:each="record : ${records}">
                         <td th:text="${record.id}">Some text</td>
                         <td th:text="${record.name}">Some text</td>
-                        <td th:text="${record.insurance}">Some text</td>
-                        <td th:text="${record.surname}">Some text</td>
-                        <td th:text="${record.phonenumber}">Some text</td>
                 </tr>
                 </tbody>
             </table>
