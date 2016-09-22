@@ -14,9 +14,7 @@ public class Record {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String name;
-    private String insurance;
-    private String surname;
-    private String phonenumber;
+    
     
     public long getId(){
         return id;
@@ -32,29 +30,7 @@ public class Record {
     public void setName(String name) {
         this.name = name;
     }
-     public String getPhonenumber() {
-        return phonenumber;
-    }
-
-    public void setPhonenumber(String phonenumber) {
-        this.phonenumber = phonenumber;
-    }
     
-     public String getInsurance() {
-        return insurance;
-    }
-
-    public void setInsurance(String insurance) {
-        this.insurance = insurance;
-    }
-    
-     public String getSurname() {
-        return surname;
-    }
-
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
     
  }
     
